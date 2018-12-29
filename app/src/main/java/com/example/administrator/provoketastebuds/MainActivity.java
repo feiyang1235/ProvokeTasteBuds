@@ -1,9 +1,10 @@
 package com.example.administrator.provoketastebuds;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.administrator.provoketastebuds.ui.main.MainFragment;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
