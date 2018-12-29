@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/txt_tab_discover"
+            style="@style/bottom_tab_button_style"
+            android:drawableTop="@drawable/tab_discovery"
+            android:text="发现" />
+
+        <TextView
+            android:id="@+id/txt_tab_lesson"
+            style="@style/bottom_tab_button_style"
+            android:drawableTop="@drawable/tab_course"
+            android:text="课程" />
+
+        <TextView
+            android:id="@+id/txt_tab_live"
+            style="@style/bottom_tab_button_style"
+            android:drawableTop="@drawable/tab_exam"
+            android:text="我的" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

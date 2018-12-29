@@ -11,8 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
+import androidx.navigation.fragment.NavHostFragment;
 
-public class MainFragment extends Fragment {
+public class MainFragment extends NavHostFragment {
 
     private MainViewModel mViewModel;
 
