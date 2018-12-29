@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
+        txt_tab_discover.isSelected = true
         txt_tab_discover.setOnClickListener {
             txt_tab_discover.isSelected = true
             txt_tab_lesson.isSelected = false

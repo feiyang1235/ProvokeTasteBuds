@@ -1,5 +1,5 @@
 
-isquid:UselessImportCheck";Remove this unused import 'androidx.fragment.app.Fragment'.(‚Š©“ùÿÿÿÿ8™®ÊÆÿ,
-usquid:S1450"YRemove the "mViewModel" field and declare it as a local variable in the relevant methods.(Âı ¥8ŒÊÆÿ,
-Jsquid:S1068".Remove this unused "mViewModel" private field.(Âı ¥8ŒÊÆÿ,
-Ssquid:S1135"2Complete the task associated to this TODO comment.(ûìÿÖøÿÿÿÿ8ŒÊÆÿ,
+Jsquid:S1068".Remove this unused "mViewModel" private field.(Âı ¥8ç¬Ëÿ,
+usquid:S1450"YRemove the "mViewModel" field and declare it as a local variable in the relevant methods.(Âı ¥8ç¬Ëÿ,
+Ssquid:S1135"2Complete the task associated to this TODO comment.(ûìÿÖøÿÿÿÿ8ç¬Ëÿ,
+isquid:UselessImportCheck";Remove this unused import 'androidx.fragment.app.Fragment'.(‚Š©“ùÿÿÿÿ8ç¬Ëÿ,

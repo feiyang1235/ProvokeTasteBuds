@@ -15,3 +15,5 @@ Papp/src/main/java/com/example/administrator/provoketastebuds/Nav2DemoFragment.k
 Lapp/src/main/java/com/example/administrator/provoketastebuds/MainActivity.kt,0\1\0156247e1a74290deabc5ce639da1cb7c4728fc6
 
 Oapp/src/main/java/com/example/administrator/provoketastebuds/NavDemoFragment.kt,2\6\265e38daa1038730b944c967d94d30c625ececf9
+}
+Mapp/src/main/java/com/example/administrator/provoketastebuds/BlankFragment.kt,1\6\1608b08c3aad8ede28d413cc0f194be649fdd236
